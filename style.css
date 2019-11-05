@@ -1,0 +1,256 @@
+h1 {
+	font-family: 'Bungee', cursive;
+	font-size: 65px;
+	line-height: 1;
+	padding: 0px 0px 20px 20px;
+	color: #CCCCCC;
+	text-shadow: -4px -4px 3px #444444;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 10px;
+	line-height: 2;
+	letter-spacing: 1.5px;
+}
+
+h5 {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 10px;
+	letter-spacing: 1.5px;
+}
+
+p {
+	color: #222222;
+	margin: 0px 0px 10px 10px;
+	padding: 0px 0px 10 px 10px;
+	width: auto;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	line-height: 2;
+	letter-spacing: 1.5px;
+}
+
+ol, ul {
+	font-size: 15px;
+	line-height: 2;
+	letter-spacing: 1.5px;
+}
+
+html {
+	background-color: #FCFCD6;
+}
+
+body {
+	text-align: left;
+	color: black;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+.header-container {
+	position: relative;
+	text-align: left;
+	color: white;
+}
+
+.top-left {
+	position: absolute;
+	left: 30px;
+	top: 50px;
+}
+
+/* Sticky navbar on left of screen */
+.scrollbar {
+	overflow: hidden;
+	position: fixed;
+	left: 0px;
+	width: 200px;
+	margin: 10px 0px 10px 10px;
+	line-height: 0.7;
+}
+
+/* Links within navbar */
+/* a after scrollbar refers to links in scrollbar class */
+.scrollbar a {
+	float: left;
+	display: block;	
+	/* Alters link font colour in scrollbar */
+	/* To adjust overall link font colour, use a separate a{} block */
+	color: #000000; 
+	padding: 9px 16px; /* Change this to alter size of link box */
+	text-decoration: none; /* Removes the usual lines below the links */
+}
+
+/* Link colours change when hovered over */
+.scrollbar a:hover {
+	background: #ddd;
+	color: black;
+}
+
+.mainbody-container {
+	position: relative;
+	width: 550px;
+	margin: 0 auto 0 25%;
+}
+
+.under-picture-text {
+	font-size: 12px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 10px;
+	letter-spacing: 0.8px;
+}
+
+.under-picture-list {
+	font-size: 12px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 10px;
+	line-height: 1.2;
+	letter-spacing: 0.8px;
+}
+
+.pagination-navigation {
+	overflow: hidden;
+	position: relative;
+	bottom: 5px;
+	width: 400px;
+	margin: 10px 0px 10px 10px;
+	line-height: 0.7;
+}
+
+.pagination-navigation a {
+	float: left;
+	display: block;	
+	color: #000000; 
+	padding: 9px 16px;
+	text-decoration: none;
+}
+
+.pagination-navigation a:hover {
+	background: #ddd;
+	color: black;
+}
+
+.first-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 310px;
+}
+
+.second-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 560px;
+}
+
+.third-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 810px;
+}
+
+.fourth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 1060px;
+}
+
+.fifth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 1310px;
+}
+
+.sixth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 1560px;
+}
+
+.seventh-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 1810px;
+}
+
+.eighth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 2060px;
+}
+
+.ninth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 2310px;
+}
+
+.tenth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 2560px;
+}
+
+.eleventh-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 2810px;
+}
+
+.twelfth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 3060px;
+}
+
+.thirteenth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 3310px;
+}
+
+.fourteenth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 3560px;
+}
+
+.fifteenth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 3810px;
+}
+
+.sixteenth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 4060px;
+}
+
+.seventeenth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 4310px;
+}
+
+.eighteenth-ad-container {
+	position: absolute;
+	right: 0px;
+	top: 4560px;
+}
